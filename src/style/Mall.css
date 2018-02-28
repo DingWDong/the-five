@@ -1,0 +1,73 @@
+.search .search-txt .iconfont {
+  color: white;
+}
+
+.catalist {
+  background: white;
+  overflow-x: auto;
+}
+.catalist .list {
+  width: 800px;
+  transition-duration: 0ms;
+  transform: translate(0px, 0px) translateZ(0px);
+  transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.catalist .list ul {
+  display: flex;
+  position: relative;
+  height: 39px;
+}
+.catalist .list ul li {
+  margin-right: 30px;
+  width: 30px;
+  flex: 0 0 30px;
+  line-height: 39px;
+}
+.catalist .list ul li a {
+  color: #999;
+  display: block;
+  width: 100%;
+  height: 100%;
+  line-height: 39px;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+.catalist .list ul li:nth-child(1) {
+  padding-left: 25px;
+}
+.catalist .list ul li a:hover {color: #000; border-bottom: 2px solid #000}
+
+/*
+.content {
+  margin-top: 40px;
+}*/
+
+.Mall-slider {
+  width: 100%;
+  height: 0px;
+  padding-bottom: 74.6667%;
+}
+.Mall-slider img {
+  width: 100%;
+  height: 100%;
+}
+.Mall-nav {
+  position: relative;
+  height: 0;
+  padding-bottom: 21.333333333333336%;
+}
+.Mall-nav ul {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.Mall-nav ul li {
+  float: left;
+  width: 20%;
+  height: 100%;
+}
+.Mall-nav ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}

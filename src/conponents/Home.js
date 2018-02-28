@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
+// 导入css样式
 import '../style/reset.css'
 import '../style/Home.css'
 import '../iconfont/iconfont.css'
 import { Carousel } from 'antd-mobile';
 import axios from 'axios';
-import { 
-  Link
-} from 'react-router-dom';
+
+
+// 导入组件
+import Header from './Header'
 
 // const requireContext = require.context("../img", true, /^\.\/.*\.jpg$/);
 // const images = requireContext.keys().map(requireContext);
@@ -30,7 +32,7 @@ class Index extends Component {
             {"img" : require('../img/5.jpg'), "url" : "http://m.5lux.com/promote/special/3445"},
             {"img" : require('../img/6.jpg'), "url" : "http://m.5lux.com/promote/special/3460"},
             {"img" : require('../img/7.jpg'), "url" : "http://m.5lux.com/promote/special/3464"},
-            {"img" : require('../img/8.jpg'), "url" : "http://m.5lux.com/promote/special/3467"},
+            {"img" : require('../img/8.jpg'), "url" : "http://m.5lux.com/promote/special/3467"}
           ]
     }
   }
@@ -38,10 +40,12 @@ class Index extends Component {
   componentDidMount () {
     axios.get("/index/index_slider")
     .then((res)=> {
-      console.log(res)
-      this.setState({
-        list: res.data.data
-      }) 
+        console.log(res)
+        
+        // 通知框架刷新
+        this.setState({
+          list: res.data.data
+        }) 
     })
   }
   
@@ -50,15 +54,7 @@ class Index extends Component {
     return (
       <div>
 
-        <div id='Search'>
-          <div className='search'>
-            <div className='search-txt'>
-              <span className='iconfont'>&#xe60b;</span>
-            </div>
-            <div className='shop-cart'><span className='iconfont icf'>&#xe601;</span></div>
-          </div>
-        </div>
-
+        <Header></Header>
 
         <div id='slider'>       
             <Carousel autoplay={true} infinite={true}>

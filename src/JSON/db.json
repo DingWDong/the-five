@@ -1,8 +1,0 @@
-{
-  "my" : [
-    {"name" : "d1","price" : 100},
-    {"name" : "d2","price" : 200},
-    {"name" : "d3","price" : 300},
-    {"name" : "d4","price" : 400},
-  ]
-}
