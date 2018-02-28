@@ -1,0 +1,24 @@
+#foot {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  width: 100%;
+  z-index: 999;
+  background: #000;
+  height: 48px;
+  text-align: center;
+}
+a {
+  color: #444;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+}
+.iconfont {
+  font-size: 24px;
+  margin: 5px 0;
+}
+.active {
+  color: white;
+}
