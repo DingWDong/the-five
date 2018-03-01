@@ -46,17 +46,16 @@ class Mall extends Component {
           nav : res.data.data
         })
       })
-
+  }
+  componentWillMount () {
     axios.get('/shop/buttons_info')
     .then((res)=>{
       console.log(res);
-           this.state.mNav = res.data.data.button_list
-              
-
-              this.serState = ({
-                mNav: res.data.data.button_list
-              })
-              console.log(this.state.mNav)
+       this.state.mNav = res.data.data.button_list           
+          this.serState = ({
+            mNav: res.data.data.button_list
+          })
+       console.log(this.state.mNav)
     })
    
   }
@@ -104,17 +103,17 @@ class Mall extends Component {
             
             <div className='Mall-nav'>
                 <ul>
-                  <li>
+                  
                     {
                       this.state.mNav.map(function(item,index){
                         return(
                           <li key={index}>
-                            <i>{item.ad_name}</i>
+                            <a href={item.ad_link}>{item.ad_name}</a>
                           </li>
                         )
                       })
                     }
-                  </li>
+
                 </ul>
             </div>
 

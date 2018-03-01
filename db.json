@@ -1,0 +1,9 @@
+{
+  "data": [
+    {"name": "good", "price": "1000"},
+    {"name": "good2", "price": "2000"},
+    {"name": "good3", "price": "3000"},
+    {"name": "good4", "price": "4000"},
+    {"name": "good5", "price": "5000"}
+  ]
+}
