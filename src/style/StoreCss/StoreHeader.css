@@ -1,0 +1,49 @@
+.storeHeader {
+	background: #fff;
+	position: fixed;
+    height: 44px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}
+.tab_but {
+	display: flex;
+	border: 1px solid #000;
+    font-size: 14px;
+    height: 26px;
+    border-radius: 4px;
+    overflow: hidden;
+    align-items: center;
+}
+.tab_but a {
+	padding: 7px;
+}
+.icon {
+	float: right;
+	position: absolute;
+	top: 8px;
+	right: 0;
+}
+.icon span {
+	display: inline-block;
+    width: 22px;
+    height: 22px;
+    margin-right: 12px;
+}
+.active {
+	background: black;
+	color: white;
+}
+.storeHeader::after {
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid rgba(0,0,0,.3);
+    content: " ";
+}

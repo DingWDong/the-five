@@ -1,0 +1,80 @@
+.MallSkill {
+	background: #fff;
+    padding-bottom: .4rem;
+    margin-bottom: .266666666666667rem;
+    text-align: center;
+}
+.skillHead {
+	padding-top: .16rem;
+}
+.skillClock {
+	font-size: .293333333333333rem;
+    color: #666;
+    margin: .186666666666667rem 0;
+}
+.swiper {
+	
+	border: 1px solid #ccc;
+}
+.swiper a {
+	box-sizing: border-box;
+	display: block;
+	height: 2.373333333333334rem;
+    padding: .253333333333333rem;
+    border: .013333333333333rem solid #e5e5e5;
+    background: #fff;
+    border-radius: .106666666666667rem;
+}
+.swiper a img {
+	width: 30%;
+	height: 100%;
+	float: left
+}
+.swiper a h3 {
+	font-size: .346666666666667rem;
+    line-height: .453333333333333rem;
+    color: #333;
+    text-align: left;
+    margin-top: .133333333333333rem;
+    overflow: hidden;
+}
+.swiper a p {
+	display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: .32rem 0 .24rem;
+    font-size: .286666666666667rem;
+    color: #f33;
+    margin-right: .133333333333333rem;
+    overflow: hidden;
+	flex-wrap: nowrap;
+}
+.swiper a span {
+	color: #ccc;
+	margin-left:.133333333333333rem;
+}
+.swiper a div {
+	display: flex;
+    text-align: center;
+    ustify-content: flex-start;
+}
+
+.swiper a div span {
+	font-size: .32rem;
+    line-height: .426666666666667rem;
+    padding: 0 .133333333333333rem;
+    background: linear-gradient(90deg,#f857a6,#ff5858);
+    color: #fff;
+    display: flex;
+    text-align: center;
+
+}
+.over {
+	width: 100%;
+	overflow: hidden;
+}
+
+.slider-decorator-0 {
+	display: none;
+}
+

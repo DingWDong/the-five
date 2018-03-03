@@ -1,5 +1,5 @@
 #Search {
-  background: white;
+  
 }
 .search {
   width: 100%;
@@ -11,6 +11,7 @@
   position: fixed;
   top: 0;
   z-index: 100;
+  background: #000;
 }
 .search-txt {
   height: 30px;

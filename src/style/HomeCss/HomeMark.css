@@ -1,0 +1,17 @@
+#mark {
+  margin-bottom: 3px;
+  width: 100%;
+  overflow: hidden;
+}
+#mark ul li {
+  margin-right: 3.5px;
+  float: left;
+  width: calc(50% - 3.5px);
+  margin-bottom: 7px;
+}
+#mark ul li img {
+  width: 100%;
+}
+#mark ul li:nth-child(2n) img {
+  margin-left: 3.5px;
+}

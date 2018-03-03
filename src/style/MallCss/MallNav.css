@@ -1,0 +1,48 @@
+.Mall-nav {
+  position: relative;
+  height: 0;
+  padding-bottom: 21.333333333333336%;
+}
+.Mall-nav ul {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.Mall-nav ul li {
+  float: left;
+  width: 20%;
+  height: 100%;
+  line-height: 120px;
+}
+.Mall-nav ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.Mall-nav ul li:nth-child(1) a {
+  background: url('../../img/nav-1.png') no-repeat;
+  background-position: 50% 30%;
+  background-size: 35%;
+}
+.Mall-nav ul li:nth-child(2) a {
+  background: url('../../img/Mall-01.png') no-repeat;
+  background-position: 50% 30%;
+  background-size: 35%;
+}
+.Mall-nav ul li:nth-child(3) a {
+  background: url('../../img/nav-3.png') no-repeat;
+  background-position: 50% 30%;
+  background-size: 35%;
+}
+.Mall-nav ul li:nth-child(4) a {
+  background: url('../../img/Mall-02.png') no-repeat;
+  background-position: 50% 30%; 
+  background-size: 35%;
+}
+.Mall-nav ul li:nth-child(5) a {
+  background: url('../../img/nav-5.png') no-repeat;
+  background-position: 50% 30%;
+  background-size: 35%;
+}
+

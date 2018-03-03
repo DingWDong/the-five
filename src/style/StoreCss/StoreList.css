@@ -1,0 +1,36 @@
+.storeList {
+    margin-top: 87px;
+    border: 1px solid #fff;
+    padding: 0 8px;
+    padding-bottom: 49px;
+    background: #fff;
+}
+.storeList ul {
+    width: 100%;
+}
+.storeList ul li a{
+    display: block;
+    padding: 20px 0 21.5px;
+    position: relative;
+    color: #7e8c8d;
+}
+.wrapper {
+    height: 0;
+    position: relative;
+    padding-bottom: 100%;
+}
+.storeName {
+    font-size: 18px;
+    color: #000;
+    text-align: left;
+    padding: 12.5px 12.5px 10px;
+}
+
+
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14.5px 21px 0;
+    font-size: 14px;
+}

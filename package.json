@@ -26,6 +26,10 @@
     "/shop": {
       "target": "http://api.restful.5lux.com.cn",
       "changeOrigin": true
+    },
+    "/good": {
+      "target": "http://api.restful.5lux.com.cn",
+      "changeOrigin": true
     }
   },
   "devDependencies": {

@@ -7,6 +7,7 @@ import {
 // 导入组件
 import Home from './Home'
 import Mall from './Mall'
+import Store  from './Store'
 // 导入样式
 import '../style/reset.css'
 import '../style/Foot.css'
@@ -25,6 +26,7 @@ class Foot extends Component {
           </div>
           <Route exact path="/" component={Home} />
           <Route path="/mall" component={Mall} />
+          <Route path="/store/list" component={Store} />
         </div>
       </Router>
     )
