@@ -19,6 +19,9 @@
     position: relative;
     padding-bottom: 100%;
 }
+.wrapper img {
+    width: 100%;
+}
 .storeName {
     font-size: 18px;
     color: #000;
@@ -33,4 +36,35 @@
     justify-content: space-between;
     padding: 14.5px 21px 0;
     font-size: 14px;
+}
+.recommend .sp1 {
+    display: inline-block;
+    flex: 0 0 33px;
+    height: 18px;
+    background: #9b885f;
+    margin: 0 10px 0 12px;
+    font-family: \\9ED1\4F53;
+    font-size: 11px;
+    color: #fff;
+    text-align: center;
+    line-height: 18px;
+}
+.recommend {
+    font-size: 15px;
+    display: flex;
+}
+.recommend .sp2 {
+    color: #999;
+    white-space: nowrap;
+    flex: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: 100;
+    text-align: left;
+}
+.details .pos {
+    font-size: 14px;
+}
+.details .col {
+    color: #000;
 }

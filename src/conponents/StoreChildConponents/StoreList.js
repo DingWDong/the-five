@@ -12,7 +12,8 @@ class StoreList extends Component {
 	constructor(props) {
 		super(props);
 		this.state = {
-			list: []
+			list: [],
+			store: []
 		}
 	}
 
@@ -26,35 +27,42 @@ class StoreList extends Component {
 			})
 			console.log(this.state.list)
 		})
+
+		axios.get('http://localhost:3000/myStore')
+		.then((res)=>{
+			console.log(res);
+			this.state.store=res.data;
+			this.setState=({
+				store: res.data
+			})
+		})
 	}
 
   render() {
     return (
       <div className='storeList'>
 			<ul>
-				<li>
-					<a href="">
-						<div className='wrapper'>
-							<div className='care'></div>
-						</div>
-						<div className='storeName'></div>
-						<div className='recommend'></div>
-						<div className='details'></div>
-					</a>
-				</li>
+				{ this.state.store.map(function(item,index){
+					return (
+						<li key={index}>
+						<a href="">
+							<div className='wrapper'>
+								<div className='care'></div>
+								<img src={item.img} alt=""/>
+							</div>
+							<div className='storeName'>{item.title}</div>
+							<div className='recommend'><span className='sp1'>新店</span><span className='sp2'>{item.recommend}</span></div>
+							<div className='details'>
+								<span className='iconfont pos'>&#xe662;北京</span>
+								<span className='col'>门店详情</span>
+							</div>
+						</a>
+						</li>
+					)
+				})	
+				}
 			</ul>
-         	<div>
-         	{
-         		this.state.list.map(function(item,index){
-         			return (
-         				<div>
-							<p>{item.title}</p>
-							<p>{item.introduction}</p>
-						</div>
-     				)
-         		})
-         	}
-         	</div>
+         	
       </div>
     );
   }

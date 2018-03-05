@@ -1,0 +1,21 @@
+{
+  "data": [
+    {"name": "good", "price": "1000"},
+    {"name": "good2", "price": "2000"},
+    {"name": "good3", "price": "3000"},
+    {"name": "good4", "price": "4000"},
+    {"name": "good5", "price": "5000"}
+  ],
+  "myStore": [
+  	{"title" : "lancome北京君太店","recommend" : "秉承权威性，有效性，安全性和愉悦性四大终极理念。", "img" : "http://mt1.baidu.com/timg?shitu&quality=100&sharpen=100&er=&imgtype=0&wh_rate=null&size=h120&sec=1520128688&di=83bc1323d8f78ad74f0e008bb52502a8&src=http%3A%2F%2Fh.hiphotos.baidu.com%2Fimage%2F%2570%2569%2563%2Fitem%2F574e9258d109b3de637f4a45c0bf6c81810a4cdf.jpg"},
+    {"title" : "lancome北京汉光百货店","recommend" : "法国国宝级化妆品牌，带着法兰西与生俱来的美丽优雅。", "img" : "http://mt1.baidu.com/timg?shitu&quality=100&sharpen=100&er=&imgtype=0&wh_rate=null&size=h120&sec=1520130412&di=f363dd5b053e8f8a9e8ff308db80a8b8&src=http%3A%2F%2Fg.hiphotos.baidu.com%2Fimage%2F%2570%2569%2563%2Fitem%2F8b82b9014a90f603252b0a6a3512b31bb051ed00.jpg"},
+    {"title" : "lancome北京崇光店","recommend" : "六十年美的历史，始终保持着的高贵却不高调的态度。", "img" : "http://mt1.baidu.com/timg?shitu&quality=100&sharpen=100&er=&imgtype=0&wh_rate=null&size=h120&sec=1520130500&di=94563546472fb631b3d74a894fae9be9&src=http%3A%2F%2Fa.hiphotos.baidu.com%2Fimage%2F%2570%2569%2563%2Fitem%2F4ec2d5628535e5dd3f6f34f27ac6a7efce1b6258.jpg"},
+    {"title" : "CK北京朝阳大悦城店","recommend" : "众多不同的色彩、图案和布料质感，不断带来惊喜。", "img" : "http://mt1.baidu.com/timg?shitu&quality=100&sharpen=100&er=&imgtype=0&wh_rate=null&size=h120&sec=1520130569&di=4120fabe05e398755f50788dcf6b7152&src=http%3A%2F%2Fc.hiphotos.baidu.com%2Fimage%2F%2570%2569%2563%2Fitem%2F8435e5dde71190efac6203f2c21b9d16fdfa6006.jpg"},
+    {"title" : "CK北京赛特奥莱店","recommend" : "风格简约图案色彩推陈出新，剪裁注重彰显线条美感。", "img" : "http://mt1.baidu.com/timg?shitu&quality=100&sharpen=100&er=&imgtype=0&wh_rate=null&size=h120&sec=1520130606&di=9021f410524bd593ace4c219c38cf1d8&src=http%3A%2F%2Fa.hiphotos.baidu.com%2Fimage%2F%2570%2569%2563%2Fitem%2Ff603918fa0ec08fad1ad828a55ee3d6d55fbda6a.jpg"},
+    {"title" : "蒂芙尼北京旗舰店","recommend" : "外墙由玻璃和金属打造而成，其设计灵感源自钻石切面。", "img" : "http://mt1.baidu.com/timg?shitu&quality=100&sharpen=100&er=&imgtype=0&wh_rate=null&size=h120&sec=1520130683&di=122973b900e6b80eda32436cb17cde00&src=http%3A%2F%2Fc.hiphotos.baidu.com%2Fimage%2F%2570%2569%2563%2Fitem%2F241f95cad1c8a786c3e4db236b09c93d71cf50d4.jpg"},
+    {"title" : "蒂芙尼北京王府半岛店","recommend" : "经典之美与蒂芙尼温馨舒适的购物体验相互融合。", "img" : "http://mt1.baidu.com/timg?shitu&quality=100&sharpen=100&er=&imgtype=0&wh_rate=null&size=h120&sec=1520130722&di=8711fcddcfbbf28628b5a0c38b9eb567&src=http%3A%2F%2Ff.hiphotos.baidu.com%2Fimage%2F%2570%2569%2563%2Fitem%2Fb219ebc4b74543a9cf106ae112178a82b9011497.jpg"},
+    {"title" : "MarjaKurki北京蓝色港湾店","recommend" : "以独特领悟力和色彩力提供完美的色彩配饰和搭配服务。", "img" : "http://mt1.baidu.com/timg?shitu&quality=100&sharpen=100&er=&imgtype=0&wh_rate=null&size=h120&sec=1520130775&di=0d7a90b8d0da52c8e1b8715ba8b3a5b0&src=http%3A%2F%2Fc.hiphotos.baidu.com%2Fimage%2F%2570%2569%2563%2Fitem%2Fc75c10385343fbf200a7360ebc7eca8065388f10.jpg"}
+
+
+  ]
+}

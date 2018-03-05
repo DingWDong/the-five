@@ -6,8 +6,8 @@
     {"name": "good4", "price": "4000"},
     {"name": "good5", "price": "5000"}
   ],
-  "StoreList": [
-  	{"title" : "lancome北京君太店","recommend" : "秉承权威性，有效性，安全性和愉悦性四大终极理念。", "img" : "./src/img/StoreList/list01.jpg"}
+  "myStore": [
+  	{"title" : "lancome北京君太店","recommend" : "秉承权威性，有效性，安全性和愉悦性四大终极理念。", "img" : " C:\Users\Administrator\Desktop\the-five\src\img\StoreList"}
 
   ]
 }
